@@ -106,6 +106,9 @@ header p {
 }
 
 @media (max-width: 600px) {
+    body {
+        height: 100vh;
+    }
 
     #conteiner {
         width: 320px;
@@ -113,7 +116,7 @@ header p {
     }
 
     #conteudo-baixo {
-        display: contents;
+        flex-direction: column;
     }
 
     #conteudo-esquerdo {
